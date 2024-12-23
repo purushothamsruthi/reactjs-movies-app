@@ -1,6 +1,12 @@
 import React from 'react';
-import MovieDetails from '../components/MovieDetails';
+import SearchBar from '../components/SearchBar';
+import MovieList from '../components/MovieList';
 
-const MoviePage = () => <MovieDetails />;
+const Home = () => (
+  <>
+    <SearchBar />
+    <MovieList />
+  </>
+);
 
-export default MoviePage;
+export default Home;
